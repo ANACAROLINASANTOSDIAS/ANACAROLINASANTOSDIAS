@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ana Dias</title>
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<header>
+<nav>
+<ul>
+<li><a href="#sobre">Sobre</a></li>
+<li><a href="#projetos">Projetos</a></li>
+<li><a href="#contato">Contato</a></li>
+</ul>
+</nav>
+</header>
+<main>
+<section id="sobre">
+<h1>Ana Dias</h1>
+<p>Desenvolvedor e entusiasta da tecnologia.</p>
+<img src="foto.png" alt="Foto de perfil">
+</section>
+<section id="projetos">
+<h2>Projetos</h2>
+<ul>
+<li><a href="#">Projeto 1</a></li>
+<li><a href="#">Projeto 2</a></li>
+</ul>
+</section>
+<section id="31 9 98983435">
+<h2>Contato</h2>
+<p>carolina_dias00@outlook.es</p>
+<ul>
+<li><a href="#">LinkedIn</a></li>
+<li><a href="#">GitHub</a></li>
+</ul>
+</section>
+</main>
+<footer>
+<p>&copy; 2023 Ana Dias</p>
+</footer>
+</body>
+</html>
+```
+ 
+*Estilo CSS (estilo.css)*
+```
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+}
+ 
+header {
+background-color: #333;
+color: #fff;
+padding: 1em;
+text-align: center;
+}
+ 
+nav ul {
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: space-between;
+}
+ 
+nav li {
+margin-right: 20px;
+}
+ 
+nav a {
+color: #fff;
+text-decoration: none;
+}
+ 
+main {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 2em;
+}
+ 
+section {
+background-color: #f7f7f7;
+padding: 1em;
+margin-bottom: 20px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+ 
+h1 {
+font-size: 24px;
+margin-top: 0;
+}
+ 
+h2 {
+font-size: 18px;
+margin-top: 0;
+}
+ 
+img {
+width: 100px;
+height: 100px;
+border-radius: 50%;
+margin: 20px auto;
+}
+ 
+footer {
+background-color: #333;
+color: #fff;
+padding: 1em;
+text-align: center;
+clear: both;
+}
